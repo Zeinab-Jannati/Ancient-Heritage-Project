@@ -6,7 +6,7 @@ from rest_framework import status
 import ghasedakpack
 from random import randint
 
-GHASEDAK_API_KEY = "YOUR_GHASEDAK_API_KEY"
+GHASEDAK_API_KEY = "0e100d660e8060c9a0ac430996aa287dcb572ddf05cf934fdef304f6115a2aabVL5YQT2vCB6nEHpH"
 sms = ghasedakpack.Ghasedak(GHASEDAK_API_KEY)
 good_line_number_for_sending_otp = '30005088'
 
